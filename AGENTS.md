@@ -139,3 +139,17 @@ Commands and implementation detail stay with these owners.
 - **Releases:** the chosen release workflow and [release contract](docs/reference/RELEASING.md). Preserve the selected release cut and identity through publication and verification. npm-format lock mirrors are verified against `pnpm-lock.yaml`, published in dependency evidence, and kept out of npm tarballs.
 - **Secrets/advisories:** [secret semantics](docs/gateway/secrets.md), [auth semantics](docs/auth-credential-semantics.md), and [security reporting](SECURITY.md) for the affected branch.
 - **Live channels/native apps:** the owning scoped guide and permitted proof workflow. Telegram claims require Test Server userbot proof with Convex-leased credentials; platform claims require the relevant real device/platform evidence. Mac permission proof needs a stable, properly signed app; see [signing](docs/platforms/mac/signing.md).
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues are used for this repository. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Triage vocabulary is configured in `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Multi-context layout. See `docs/agents/domain.md`.
